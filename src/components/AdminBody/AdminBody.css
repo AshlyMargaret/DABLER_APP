@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.innerFlexContainer1{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.leftNavigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navigationBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rightNavigation{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.togglebtn{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.saveButton{
+    width: 85px;
+    background-color: #5B93FF;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.buildButton{
+    width: 85px;
+    background-color: #06CA6B;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.innerFlexContainer2{
+    background-color: #F7F9FB;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerMenu{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+.menu img{
+    padding-right: 10px;
+}
+.testRunBtn{
+    width: 85px;
+    background-color: #06CA6B;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.innerFlexContainer3{
+    width: 100%; 
+    /* height: 50vh; */
+    height: 300px;
+    padding-left: 45px;
+    padding-top: 10px;
+    border-left: 30px solid  #F7F9FB;
+    border-right: 30px solid  #F7F9FB ;
+    border-bottom: 10px solid  #F7F9FB;
+}
+.leftSection3{
+    width: 300px;
+    height: 300px;
+    border-right: 10px solid  #F7F9FB;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Section{
+    display: flex;
+    flex-direction: row;  
+}
+.Section img{
+    padding-right: 10px;
+}
+.innerFlexContainer4{
+    width: 100%; 
+    /* height: 50vh; */
+    height: 300px;
+    padding-left: 45px;
+    border-left: 30px solid  #F7F9FB;
+    border-right: 30px solid  #F7F9FB ;
+    border-bottom: 10px solid  #F7F9FB;
+}
+.usersList{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.user img{
+    padding-left: 10px;
+}
+.customerSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.salesSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tableSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.viewSection{
+    display: flex;
+    flex-direction: row;
+}
+.table_display,.viewDisplay{
+    display: flex;
+    flex-direction: row;
+}
